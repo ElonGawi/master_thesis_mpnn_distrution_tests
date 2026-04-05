@@ -141,7 +141,7 @@ def plot_reliablity(
             save_per_class_probs_and_ground_truth_to_file(
                 experiment_num=file_name_dict["expriment_num"],
                 dataset=file_name_dict["dataset"],
-                class_name="ALL_resides",
+                class_name="ALL_residues",
                 y_prob_class=pooled_prob,
                 y_true_class=pooled_true,
                 folder_path=output_folder,
